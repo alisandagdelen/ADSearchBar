@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		1A3104330BC13EC15B8EB0CBEB8AE2A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		26DED92E67401FCE8964DD28497DC281 /* Pods-ADSearchBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45062346284281782EE223AD728CEF04 /* Pods-ADSearchBar_Example-dummy.m */; };
-		28E8FEDBA1AFA165C360CEE4E3950CC6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEDB15CE2416810A6E3D7E8ADA04CA4 /* ReplaceMe.m */; };
+		3B00E5E72014B8680054E253 /* ADSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B00E5E52014B8680054E253 /* ADSearchBar.h */; };
+		3B00E5E82014B8680054E253 /* ADSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B00E5E62014B8680054E253 /* ADSearchBar.m */; };
 		3DD40982FA01C1E65DA7064A3327F9C1 /* Pods-ADSearchBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC23B16A0BE7E8EC18A5E0A62372D3CA /* Pods-ADSearchBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B5AD2268F8A46A959BA1F6D81030BE3 /* ADSearchBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C938AF1CA0EE2817E34FBE6209273CC4 /* ADSearchBar-dummy.m */; };
 		7D05D1E40EE1CEFADCE05EA7055C68A9 /* ADSearchBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68684B6E8EEFA84E6E05EE1AB79E0236 /* ADSearchBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,13 +31,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1138BEA32A431F9FB97B26FBD04317EB /* Pods_ADSearchBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ADSearchBar_Tests.framework; path = "Pods-ADSearchBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		12B471BABEDBF33D36ADB7EFF1C635B1 /* Pods_ADSearchBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ADSearchBar_Example.framework; path = "Pods-ADSearchBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1138BEA32A431F9FB97B26FBD04317EB /* Pods_ADSearchBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADSearchBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B471BABEDBF33D36ADB7EFF1C635B1 /* Pods_ADSearchBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADSearchBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18805C30410207BC19219FB52E29E054 /* Pods-ADSearchBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADSearchBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		261049F0FD597A5CB4D66C346492A9DA /* Pods-ADSearchBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADSearchBar_Tests-resources.sh"; sourceTree = "<group>"; };
 		3622A18531D50F3EE0FD584FD0AC539C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3883ADFD8BC7EAF9801895DC6A42546F /* ADSearchBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ADSearchBar.modulemap; sourceTree = "<group>"; };
-		3F409651CCD4D8F884FFFE409AF821F7 /* Pods-ADSearchBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ADSearchBar_Tests.modulemap"; sourceTree = "<group>"; };
+		3883ADFD8BC7EAF9801895DC6A42546F /* ADSearchBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ADSearchBar.modulemap; sourceTree = "<group>"; };
+		3B00E5E42014B84A0054E253 /* ADSearchBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ADSearchBar.xib; path = ADSearchBar/Classes/ADSearchBar.xib; sourceTree = "<group>"; };
+		3B00E5E52014B8680054E253 /* ADSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADSearchBar.h; path = ADSearchBar/Classes/ADSearchBar.h; sourceTree = "<group>"; };
+		3B00E5E62014B8680054E253 /* ADSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADSearchBar.m; path = ADSearchBar/Classes/ADSearchBar.m; sourceTree = "<group>"; };
+		3F409651CCD4D8F884FFFE409AF821F7 /* Pods-ADSearchBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ADSearchBar_Tests.modulemap"; sourceTree = "<group>"; };
 		42CCF98BACB8FCF0529E462E62723F7D /* Pods-ADSearchBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADSearchBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		45062346284281782EE223AD728CEF04 /* Pods-ADSearchBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADSearchBar_Example-dummy.m"; sourceTree = "<group>"; };
 		526E2CC44CB86508F69F0B700378A01A /* Pods-ADSearchBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADSearchBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,10 +50,10 @@
 		69D4F68ADB7B36B233F782B34ADFECD8 /* Pods-ADSearchBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADSearchBar_Example-umbrella.h"; sourceTree = "<group>"; };
 		790CAE14FD1638070701DC14FA0F6B13 /* Pods-ADSearchBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADSearchBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7CE8B8D03AEB77A3D68388E478E34709 /* Pods-ADSearchBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADSearchBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97D97B4B6BE12075ECC62705E07158B4 /* Pods-ADSearchBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ADSearchBar_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97D97B4B6BE12075ECC62705E07158B4 /* Pods-ADSearchBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ADSearchBar_Example.modulemap"; sourceTree = "<group>"; };
 		9C6E793FEB2B07C8C96852B185AE06C6 /* Pods-ADSearchBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADSearchBar_Example-resources.sh"; sourceTree = "<group>"; };
-		9F4C8DF0F4A01664E01AE8040C8BA5AD /* ADSearchBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ADSearchBar.framework; path = ADSearchBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4C8DF0F4A01664E01AE8040C8BA5AD /* ADSearchBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADSearchBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F3C172AC8A2D945B908C4011F9B9A8 /* Pods-ADSearchBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADSearchBar_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AE8213B8A36A0A73E7802A23F9D6CD36 /* Pods-ADSearchBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADSearchBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B45C503C04F052F1BBC77C2002E9ECF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,7 +62,6 @@
 		CC23B16A0BE7E8EC18A5E0A62372D3CA /* Pods-ADSearchBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADSearchBar_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D9596F1C98A127C4B2DFB263B3E18953 /* ADSearchBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADSearchBar.xcconfig; sourceTree = "<group>"; };
 		DA4C2BE1ACF3D1D2452791EABEBA4D8A /* Pods-ADSearchBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADSearchBar_Tests-dummy.m"; sourceTree = "<group>"; };
-		DBEDB15CE2416810A6E3D7E8ADA04CA4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ADSearchBar/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		ED357DB6EBA41E645766F53FF9FB196A /* Pods-ADSearchBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADSearchBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F91BB446E90DEFDAC491053FAC2032FE /* Pods-ADSearchBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADSearchBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FA0E6473EEA7C85FE389148D42002352 /* ADSearchBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADSearchBar-prefix.pch"; sourceTree = "<group>"; };
@@ -110,10 +113,20 @@
 			path = "Target Support Files/Pods-ADSearchBar_Example";
 			sourceTree = "<group>";
 		};
+		3B00E5E32014B7FA0054E253 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3B00E5E52014B8680054E253 /* ADSearchBar.h */,
+				3B00E5E62014B8680054E253 /* ADSearchBar.m */,
+				3B00E5E42014B84A0054E253 /* ADSearchBar.xib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		5554EF2D2D9C635D63E8D39ED7BDBADA /* ADSearchBar */ = {
 			isa = PBXGroup;
 			children = (
-				DBEDB15CE2416810A6E3D7E8ADA04CA4 /* ReplaceMe.m */,
+				3B00E5E32014B7FA0054E253 /* Classes */,
 				7B09794152CB29F9D3F58CA56C1A6468 /* Support Files */,
 			);
 			name = ADSearchBar;
@@ -214,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D05D1E40EE1CEFADCE05EA7055C68A9 /* ADSearchBar-umbrella.h in Headers */,
+				3B00E5E72014B8680054E253 /* ADSearchBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,8 +335,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B00E5E82014B8680054E253 /* ADSearchBar.m in Sources */,
 				4B5AD2268F8A46A959BA1F6D81030BE3 /* ADSearchBar-dummy.m in Sources */,
-				28E8FEDBA1AFA165C360CEE4E3950CC6 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

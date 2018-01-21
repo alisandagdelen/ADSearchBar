@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'ADSearchBar_Example' do
-  pod 'ADSearchBar', :path => '../'
+  pod 'ADSearchBar', :path => '../ADSearchBar'
 
   target 'ADSearchBar_Tests' do
     inherit! :search_paths
