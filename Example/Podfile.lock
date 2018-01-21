@@ -1,0 +1,16 @@
+PODS:
+  - ADSearchBar (0.1.0)
+
+DEPENDENCIES:
+  - ADSearchBar (from `../`)
+
+EXTERNAL SOURCES:
+  ADSearchBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ADSearchBar: cdac0eb18cfa4db736628bb9c125ebae79de5edc
+
+PODFILE CHECKSUM: ef7c056aa196503d342a6c7ec59b323377d36b4a
+
+COCOAPODS: 1.3.1

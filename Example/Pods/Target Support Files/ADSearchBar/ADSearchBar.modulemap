@@ -1,0 +1,6 @@
+framework module ADSearchBar {
+  umbrella header "ADSearchBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
